@@ -25,6 +25,11 @@ const reset=document.querySelector(".resetButton")
 
 function resetFunction(){
   console.log("reset button is clicked");
+
+  //delete all of the divs horizontals
+  while (drawingPad.firstChild) {
+    drawingPad.removeChild(drawingPad.firstChild);
+  }
   
   var grid=prompt("how many grid do you want?",16)
   var correct=true
