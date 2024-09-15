@@ -1,10 +1,10 @@
 const drawingPad =document.querySelector(".drawing-pad")
-
-for (let i = 0;i<16;i++){
+var grid=16
+for (let i = 0;i<grid;i++){
   console.log("loop working",i)
   let drawPixelVer= document.createElement("div")
   drawPixelVer.classList.add("pixelVer")
-  for (let l = 0;l<16;l++){
+  for (let l = 0;l<grid;l++){
     console.log("drawPixelHor",i,l)
     let drawPixel= document.createElement("div")
     drawPixel.classList.add("pixel")
@@ -16,3 +16,5 @@ for (let i = 0;i<16;i++){
   }
   drawingPad.appendChild(drawPixelVer);
 }
+const reset=document.querySelector(".resetButton")
+
