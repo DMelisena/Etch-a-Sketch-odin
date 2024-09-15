@@ -18,3 +18,19 @@ for (let i = 0;i<grid;i++){//first loop determines pixel number on y axis
 }
 const reset=document.querySelector(".resetButton")
 
+function resetFunction(){
+  console.log("reset button is clicked");
+  var grid = prompt("How many grids do you want to make")
+  
+  var grid=prompt("how many grid do you want?",16)
+  var correct=true
+  while(correct==true){
+    if(grid>0){
+      correct=false
+    }
+    else{
+      var grid=prompt("please enter positive value",16)
+    }
+  }
+  //delete all of the divs horizontals
+}
