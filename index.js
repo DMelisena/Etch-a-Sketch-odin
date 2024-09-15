@@ -25,7 +25,6 @@ const reset=document.querySelector(".resetButton")
 
 function resetFunction(){
   console.log("reset button is clicked");
-  var grid = prompt("How many grids do you want to make")
   
   var grid=prompt("how many grid do you want?",16)
   var correct=true
