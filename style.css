@@ -21,6 +21,10 @@ body{
   flex-flow:column;
 }
 
+ul{
+  padding:0;
+}
+
 .drawing-pad{
   background:grey;
   padding:10px;
@@ -29,9 +33,16 @@ body{
   flex:0;
   border:10px solid blue;
   border-radius:10px;
+  display:flex;
+  flex-flow:column;
 }
 
-ul{
-  padding:0;
+.pixelVer,
+.pixel{
+  display:flex;
+  align-items:center;
+  color:green;
+  background:green;
+  flex:1 1 auto;
 }
 
