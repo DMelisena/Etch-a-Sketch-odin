@@ -40,6 +40,8 @@ function resetFunction(){
     else{
       var grid=prompt("please enter positive value",16)
     }
+  createPixels(gridNum,gridNum)
   }
-  //delete all of the divs horizontals
+
+  
 }
