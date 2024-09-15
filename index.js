@@ -8,7 +8,7 @@ for (let i = 0;i<16;i++){
     console.log("drawPixelHor",i,l)
     let drawPixel= document.createElement("div")
     drawPixel.classList.add("pixel")
-    drawPixel.addEventListener("click",()=> {
+    drawPixel.addEventListener("mouseover",()=> {
  //     drawPixel.setAttribute("style","colors:red; background:blue;");
       drawPixel.style.backgroundColor = "blue";
     })
