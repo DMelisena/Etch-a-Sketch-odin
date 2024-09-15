@@ -19,6 +19,8 @@ function createPixels(grid,grid){
   }
 
 }
+createPixels(gridNum,gridNum)
+
 const reset=document.querySelector(".resetButton")
 
 function resetFunction(){
