@@ -31,10 +31,10 @@ function resetFunction(){
     drawingPad.removeChild(drawingPad.firstChild);
   }
   
-  var grid=prompt("how many grid do you want?",16)
+  var gridNum=prompt("how many grid do you want?",16)
   var correct=true
   while(correct==true){
-    if(grid>0){
+    if(gridNum>0){
       correct=false
     }
     else{
