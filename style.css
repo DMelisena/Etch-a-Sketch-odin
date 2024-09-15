@@ -40,7 +40,6 @@ ul{
 .pixelVer,
 .pixel{
   display:flex;
-  align-items:center;
   color:green;
   background:green;
   flex:1 1 auto;

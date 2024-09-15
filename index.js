@@ -8,9 +8,10 @@ for (let i = 0;i<16;i++){
     console.log("drawPixelHor",i,l)
     let drawPixel= document.createElement("div")
     drawPixel.classList.add("pixel")
-    //drawPixel.addEventListener("mousedown",()=> {
-    //drawPixel.setAttribute("style","colors:green;background:blue;")
-    //})
+    drawPixel.addEventListener("click",()=> {
+ //     drawPixel.setAttribute("style","colors:red; background:blue;");
+      drawPixel.style.backgroundColor = "blue";
+    })
     drawPixelVer.appendChild(drawPixel);
   }
   drawingPad.appendChild(drawPixelVer);
